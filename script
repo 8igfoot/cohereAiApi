@@ -1,0 +1,36 @@
+function gCcAi(promptText,mxtks) {
+  var apiKey = '<API Key>';
+  var apiUrl = 'https://api.cohere.ai/v1/chat';
+
+  // Create the request data with the correct structure
+  var headers = {
+    'Content-Type': 'application/json',
+    'Authorization': 'Bearer ' + apiKey,
+  };
+
+  var payload = {
+    'chat_history': [
+	    {"user_name": "User", "text": "Hey!"},
+	    {"user_name": "Chatbot", "text": "Hey! How can I help you today?"},
+    ],
+    'message': promptText,
+    //"connectors": [{"id": "web-search"}] //optional feature to use web search material
+  };
+
+    var options = {
+    'method': 'post',
+    'headers': headers,
+    'payload': JSON.stringify(payload),
+    'muteHttpExceptions': true
+  };
+
+  // Make the API request
+  var response = UrlFetchApp.fetch(apiUrl, options);
+  var responseData = JSON.parse(response.getContentText());
+
+  // Log or use the response data as needed
+  //Logger.log(responseData.text);
+
+  // Return the generated text
+  return response.text;
+}
