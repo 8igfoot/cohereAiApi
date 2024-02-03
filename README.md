@@ -4,18 +4,18 @@ A simple Google Apps Script used to call Cohere Platform API with a prompt.
 
 Usage:
 
-`gCcAi(prompt,null);`
+`gCcAi(prompt,200);`
 
-Where <prompt> is the question text you want to ask Cohere Platform API. For this to work you need a CoralAI account and sign up for Google Apps Scripting, both of which are free. Here is how to get started:
+Where <prompt> is the question text you want to ask Cohere Platform API and 200 represents the max amount of tokens you want to use for this activity (200 is standard). For this to work you need a Cohere AI account and sign up for Google Apps Scripting, both of which are free. Here is how to get started:
 
 - [Google Apps Scripting](https://www.google.com/script/start/) - Create automations and web services
 - [Cohere AI API](https://cohere.com) - Access AI web service API
 
-NOTE: Unlike mainstream AI API's like Google Gemini and OpenAi, Cohere's "free" API is extremely limited, such that you can run out of free tokens quickly, at which point it just returns a null string.
+<B>OPERATIONAL NOTE</b>: Unlike mainstream AI API's like Google Gemini and OpenAi, Cohere's "free" API is extremely limited, such that you can run out of free tokens quickly, at which point it just returns a null string.
 
 ### Example output:
 
-`gCcAi('What is bigfoot?',null);`
+`gCcAi('What is bigfoot?',200);`
 
 Output:
 
