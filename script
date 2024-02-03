@@ -33,5 +33,5 @@ function gCcAi(promptText,mxtks) {
   //Logger.log(responseData.text);
 
   // Return the generated text
-  return response.text;
+  return responseData.text;
 }
