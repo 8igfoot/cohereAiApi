@@ -11,23 +11,17 @@ Where <prompt> is the question text you want to ask Cohere Platform API and 200 
 - [Google Apps Scripting](https://www.google.com/script/start/) - Create automations and web services
 - [Cohere AI API](https://cohere.com) - Access AI web service API
 
-<B>OPERATIONAL NOTE</b>: Unlike mainstream AI API's like Google Gemini and OpenAi, Cohere's "free" API is extremely limited, such that you can run out of free tokens quickly, at which point it just returns a null string.
-
 ### Example output:
 
 `gCcAi('What is bigfoot?',200);`
 
 Output:
 
->Bigfoot is a legendary creature said to inhabit the forests of the Pacific Northwest, Western Canada, and the United States. It is described as an oversized, hairy, bipedal humanoid, covered in thick fur often described as reddish-brown.
+>Bigfoot, also known as Sasquatch, is a mythical ape-like creature that is said to inhabit forests in the Pacific Northwest region of North America. It is an anthropomorphic creature with enormous footprints. American folklore has different variants of the bigfoot legend, which differs in descriptions of the creature from region to region. 
 
->The name Bigfoot is a commonly used colloquial term, but the creature is also known as Sasquatch, Yeti, or Abominable Snowman, among other names.
+>In the 21st century, mainstream science classifies bigfoot as a cryptid, a creature whose existence is disputed and lacks scientific proof. Scientists have found thousands of bigfoot-like footprints, but the sightings of the creature are often subjective due to the dense forests of the Pacific Northwest. Thus, making it a difficult area to study wildlife with so many other animals in the area. 
 
->The existence of Bigfoot is largely considered to be a myth, with a lack of credible and scientific evidence. However, the legend of Bigfoot is a popular cultural phenomenon, featuring prominently in folklore, literature, film, and television. The myth has also sparked interest in cryptozoology, the academic study of such legends.
-
->Some people claim to have encountered Bigfoot, describing it as a large, powerful, and intelligent being. Others suggest that these sightings can be explained by misidentification of natural phenomena, such as wind and weather, or hoaxes.
-
->Bigfoot is a fascinating part of our cultural heritage and an enduring source of fascination and wonder.
+>The legend of Bigfoot persisted throughout the 20th century and remains a popular cultural icon today. Would you like me to go into more detail about the cultural significance of Bigfoot
 
 ### Useability
 
@@ -36,4 +30,5 @@ Output:
 |Signup|🟩 Simple|
 |API key setup|🟩 Created on opening account|
 |Available code examples|🟥 None of the curl examples work|
-|Any issues|🟥 Token/daily limits prevent any legitimate testing|
+|Any issues|🟨 Token/daily limits can prevent any legitimate testing|
+|Execution time|🟨 5695.0 milliseconds|
