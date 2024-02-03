@@ -28,3 +28,12 @@ Output:
 >Some people claim to have encountered Bigfoot, describing it as a large, powerful, and intelligent being. Others suggest that these sightings can be explained by misidentification of natural phenomena, such as wind and weather, or hoaxes.
 
 >Bigfoot is a fascinating part of our cultural heritage and an enduring source of fascination and wonder.
+
+### Useability
+
+|Function:|Time involved|
+|---|---|
+|Signup|🟩 Simple|
+|API key setup|🟩 Created on opening account|
+|Available code examples|🟥 None of the curl examples work|
+|Any issues|🟥 Token/daily limits prevent any legitimate testing|
